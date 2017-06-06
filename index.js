@@ -9,5 +9,6 @@ function slice_packet(raw) {
 
 module.exports = {
   slice_packet: slice_packet,
-  parse: radiotap.parse
+  parse: radiotap.parse,
+  parse_frame: frame.parse
 }
